@@ -25,6 +25,25 @@ Condensação dos meus aprendizados sobre CSS
 # Seletores:
 
 * [Element](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/type.html)
+
+```css
+/* Isso seleciona a porra toda */
+* {
+	...
+}
+
+/* Todos os <h1>'s
+h1 {
+	...
+}
+
+/* Todos os <p>'s que forem descendentes de <span>'s
+p span {
+	...
+}
+
+```
+
 * [Class](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/class.html)
 * [Id](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/id.html)
 * [Descendant](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/descendent.html)
