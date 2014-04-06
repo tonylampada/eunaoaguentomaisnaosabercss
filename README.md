@@ -46,6 +46,20 @@ p span {
 
 ### [Classes e ids](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/classes_e_ids.html)
 
+```css
+/* seleciona quem tiver class="main-header" */
+.main-header {
+	...
+}
+
+/* Os <p>'s que forem descendentes de alguem com class="main-content" */
+.main-content p {
+	...
+}
+
+```
+
+
 
 * [Id](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/id.html)
 * [Descendant](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/descendent.html)
