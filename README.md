@@ -22,9 +22,9 @@ Condensação dos meus aprendizados sobre CSS
 * [html5rocks](http://www.html5rocks.com/)
 * [A begginners guide to wireframing](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399)
 
-# Seletores:
+# 1. Seletores:
 
-* [Element](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/type.html)
+### [Element](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/type.html)
 
 ```css
 /* Isso seleciona a porra toda */
@@ -44,7 +44,9 @@ p span {
 
 ```
 
-* [Class](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/class.html)
+### [Classes e ids](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/classes_e_ids.html)
+
+
 * [Id](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/id.html)
 * [Descendant](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/descendent.html)
 * [Direct child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/directhild.html)
