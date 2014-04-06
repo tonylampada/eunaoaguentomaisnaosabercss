@@ -32,12 +32,12 @@ Condensação dos meus aprendizados sobre CSS
 	...
 }
 
-/* Todos os <h1>'s
+/* Todos os <h1>'s */
 h1 {
 	...
 }
 
-/* Todos os <p>'s que forem descendentes de <span>'s
+/* Todos os <p>'s que forem descendentes de <span>'s */
 p span {
 	...
 }
