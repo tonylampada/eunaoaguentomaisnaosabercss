@@ -20,3 +20,24 @@ Condensação dos meus aprendizados sobre CSS
 * [Front end style guides](http://24ways.org/2011/front-end-style-guides/)
 * [KSS (gerador de documentação de CSS)](http://warpspire.com/posts/kss/)
 * [html5rocks](http://www.html5rocks.com/)
+* [A begginners guide to wireframing](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399)
+
+# Seletores:
+
+* [Element](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/type.html)
+* [Class](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/class.html)
+* [Id](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/id.html)
+* [Descendant](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/descendent.html)
+* [Direct child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/directhild.html)
+* [Sibling](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/sibling.html)
+* [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
+* [first-child, last-child, nth-child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/nthchild.html)
+* [Pseudo-elements / generated content](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoelements.html)
+
+# O Box Model
+
+
+
+# Flexbox
+
+# Media Queries
