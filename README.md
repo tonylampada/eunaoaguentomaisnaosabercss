@@ -66,7 +66,19 @@ p span {
 * [atributo$="endswith"]
 * [atributo*="contains"]
 
-* [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
+### [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
+
+* a:link - links nao visitados
+* a:visited - links ja visitados
+* :hover - mouse em cima
+* :active - mouse clicado em cima
+* :focus - links ou inputs que estão com foco
+* :first-child - só o primeiro filho
+* :last-child - só o último filho
+* :only-child - só se for filho único
+* :nth-child(even) - só os filhos pares
+
+
 * [first-child, last-child, nth-child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/nthchild.html)
 * [Pseudo-elements / generated content](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoelements.html)
 
