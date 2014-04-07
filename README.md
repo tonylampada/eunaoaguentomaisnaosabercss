@@ -46,26 +46,10 @@ p span {
 
 ### [Classes e ids](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/classes_e_ids.html)
 
+* .classe
+* #id
 * Id's devem ser únicos
 * Dá pra combinar classes diferentes no mesmo elemento.
-
-```css
-/* seleciona quem tiver class="main-header" */
-.main-header {
-	...
-}
-
-/* Quem tiver id="main-content" */
-#main-content {
-	...
-}
-
-/* Os <p>'s que forem descendentes de alguem com id="main-content" */
-#main-content p {
-	...
-}
-
-```
 
 ### [Tudo em família](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/estruturais.html)
 
@@ -74,27 +58,14 @@ p span {
 * ~ Quaisquer irmãos subsequentes
 * + e ~ só pegam os irmão que aparecem DEPOIS do elemento
 
-```css
-/* Todos os links que forem filhos diretos de class="main" */
-.main > a {
-	...
-}
+### [Attribute](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/attribute.html)
 
-/* Todos os <p>'s que forem irmãos de <h2>'s */
-h2 ~ p {
-	...
-}
+* [atributo]
+* [atributo="valor"]
+* [atributo^="startswith"]
+* [atributo$="endswith"]
+* [atributo*="contains"]
 
-/* Todos os <p>'s que forem adjacentes a <h2>'s */
-h2 + p {
-	...
-}
-
-
-```
-
-* [Direct child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/directhild.html)
-* [Sibling](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/sibling.html)
 * [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
 * [first-child, last-child, nth-child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/nthchild.html)
 * [Pseudo-elements / generated content](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoelements.html)

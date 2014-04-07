@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Tudo em família</title>
+	<style type="text/css">
+		.container{
+			width:740px;
+			margin: auto;
+			font-family: sans-serif;
+		}
+		[grandao] {
+			font-size: 24px;
+		}
+		a[href] {
+			text-decoration: none;
+		}
+		a[target="_blank"] {
+			border-bottom: dotted;
+			border-width: 2px;
+			border-color: crimson;
+		}
+		a[href^="http://"],
+		a[href^="https://"] {
+			background: url('../img/external.png') no-repeat 0 -2px;
+			padding-left: 25px;
+		}
+		a[href$=".doc"] {
+			background: url('../img/doc.gif') no-repeat 0 -2px;
+			padding-left: 25px;
+		}
+		a[href$=".pdf"] {
+			background: url('../img/pdf.gif') no-repeat 0 -2px;
+			padding-left: 25px;
+		}
+		a[href*="download"] {
+			color: magenta;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<ul>
+			<li grandao><a href="linkao.html">Linkzão</a></li>
+			<li><a href="type.html">Elementos (link interno)</a></li>
+			<li><a href="classes_e_ids.html" target="_blank">Classes e ids (link interno, nova aba)</a></li>
+			<li><a href="http://freedomsponsors.org">FreedomSponsors (link externo)</a></li>
+			<li><a href="https://freedomsponsors.org" target="_blank">FreedomSponsors (link externo, nova aba)</a></li>
+			<li><a href="arquivo_download.doc">Download doc</a></li>
+			<li><a href="arquivo_download.pdf">Download pdf</a></li>
+		</ul>
+	</div>
+</body>
+</html>
