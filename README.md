@@ -97,6 +97,11 @@ p span {
 * ::before - ADICIONA um pseudoelemento como primeiro filho do elemento.
 * ::after - ADICIONA um pseudoelemento como último filho do elemento.
 * ::before e ::after tem que ter um atributo content (que seja no minimo uma string vazia)
+* O atributo content pode ser:
+** Uma string
+** Uma chamada da funcão url
+** Uma chamada da função attr (que pega o valor de um atributo do elemento)
+* Dá pra criar formas interessantes (círculos, elipses, etc) com before e after
 
 ```css
 /* Adiciona um ícone de telefone depois */
@@ -108,6 +113,13 @@ p span {
 .pdf::before {
 	content: url(../img/pdf.gif);
 	margin: 0 8px;
+}
+
+/* Adiciona a url do link depois */
+.pdf::before {
+	content: attr(href);
+	padding-left: 10px;
+	color: red;
 }
 ```
 
