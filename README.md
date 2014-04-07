@@ -70,8 +70,8 @@ p span {
 ### [Tudo em família](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/estruturais.html)
 
 * > Filhos diretos
-* + Adjacente
-* ~ General sibling
+* + Irmãos adjacentes
+* ~ Quaisquer irmãos
 
 ```css
 /* Todos os links que forem filhos diretos de class="main" */
