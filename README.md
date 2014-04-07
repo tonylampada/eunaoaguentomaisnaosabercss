@@ -116,7 +116,7 @@ p span {
 }
 
 /* Adiciona a url do link depois */
-.pdf::before {
+.pdf::after {
 	content: attr(href);
 	padding-left: 10px;
 	color: red;
