@@ -46,7 +46,8 @@ p span {
 
 ### [Classes e ids](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/classes_e_ids.html)
 
-* Id's devem ser únicos!
+* Id's devem ser únicos
+* Dá pra combinar classes diferentes no mesmo elemento.
 
 ```css
 /* seleciona quem tiver class="main-header" */
@@ -55,7 +56,7 @@ p span {
 }
 
 /* Quem tiver id="main-content" */
-#main-content p {
+#main-content {
 	...
 }
 
@@ -66,9 +67,31 @@ p span {
 
 ```
 
+### [Tudo em família](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/estruturais.html)
 
-* [Id](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/id.html)
-* [Descendant](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/descendent.html)
+* > Filhos diretos
+* + Adjacente
+* ~ General sibling
+
+```css
+/* Todos os links que forem filhos diretos de class="main" */
+.main > a {
+	...
+}
+
+/* Todos os <p>'s que forem irmãos de <h2>'s */
+h2 ~ p {
+	...
+}
+
+/* Todos os <p>'s que forem adjacentes a <h2>'s */
+h2 + p {
+	...
+}
+
+
+```
+
 * [Direct child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/directhild.html)
 * [Sibling](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/sibling.html)
 * [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
