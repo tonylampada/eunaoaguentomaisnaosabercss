@@ -67,24 +67,51 @@ p span {
 * [atributo*="contains"]
 
 ### [Pseudo-classes](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoclasses.html)
+(Muito foda isso...)
 
 * a:link - links nao visitados
 * a:visited - links ja visitados
+* :target - o div com id="ancora" se o cara caiu no link que termina com #ancora
 * :hover - mouse em cima
 * :active - mouse clicado em cima
 * :focus - links ou inputs que estão com foco
+* :enabled - inputs/botoes habilitados
+* :disabled - inputs/botoes desabilitados
+* :checked - checkbox/radio selecionados
+* :empty - só seleciona se tiver vazio
+* :not(<seletor>) - só seleciona quem não obedecer a condição do seletor
 * :first-child - só o primeiro filho
 * :last-child - só o último filho
 * :only-child - só se for filho único
 * :nth-child(even) - só os filhos pares
+* :nth-child(odd) - só os filhos ímpares
+* :nth-child(3n+2) - 2o, 5o, 8o...
+* div:nth-of-type(3n+2) - 2o, 5o, 8o... mas só os divs
+* div:only-of-type - só se for o único div filho
 
+### [Pseudo-elements / generated content](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoelements.html)
 
-* [first-child, last-child, nth-child](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/nthchild.html)
-* [Pseudo-elements / generated content](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/pseudoelements.html)
+* Pseudoelementos podem vir com :: ou com : (prefira :: por clareza)
+* ::first-line - seleciona só a primeira linha do texto dentro do elemento
+* ::first-letter - seleciona só a primeira LETRA do texto dentro do elemento
+* ::before - ADICIONA um pseudoelemento como primeiro filho do elemento.
+* ::after - ADICIONA um pseudoelemento como último filho do elemento.
+* ::before e ::after tem que ter um atributo content (que seja no minimo uma string vazia)
+
+```css
+/* Adiciona um ícone de telefone depois */
+.phone::after {
+	content: "\2706";
+}
+
+/* Adiciona um ícone de pdf antes */
+.pdf::before {
+	content: url(../img/pdf.gif);
+	margin: 0 8px;
+}
+```
 
 # O Box Model
-
-
 
 # Flexbox
 
