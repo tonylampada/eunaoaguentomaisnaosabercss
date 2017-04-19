@@ -37,7 +37,7 @@ h1 {
 	...
 }
 
-/* Todos os <p>'s que forem descendentes de <span>'s */
+/* Todos os <span>'s descendentes de <p>'s */
 p span {
 	...
 }
