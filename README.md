@@ -53,10 +53,10 @@ p span {
 
 ### [Tudo em família](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/estruturais.html)
 
-* > Filhos diretos
-* + Irmão seguinte
-* ~ Quaisquer irmãos subsequentes
-* + e ~ só pegam os irmão que aparecem DEPOIS do elemento
+* `>` Filhos diretos
+* `+` Irmão seguinte
+* `~` Quaisquer irmãos subsequentes
+* `+` e ~ só pegam os irmão que aparecem DEPOIS do elemento
 
 ### [Attribute](http://tonylampada.github.io/eunaoaguentomaisnaosabercss/seletores/attribute.html)
 
